@@ -23,6 +23,9 @@ inputs:
   ref:
     description: "The reference point. This is either a commit or branch."
     required: false
+  client_payload:
+    description: "The reference point. This is either a commit or branch."
+    required: false
 runs:
   using: 'docker'
   image: 'Dockerfile'
